@@ -12,9 +12,7 @@ class coffeeList extends MaterialPageRoute<Null> {
             bottomNavigationBar: BottomNavBar(),
             body: Center(child: Text("fgh")),
             floatingActionButton: FloatingActionButton(
-                onPressed: () {
-                  Navigator.push(ctx, add_groupList());
-                },
+                onPressed: () {},
                 child: Text('...'),
                 backgroundColor: Colors.orange[600]),
           );
