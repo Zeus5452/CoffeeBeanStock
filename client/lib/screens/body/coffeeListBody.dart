@@ -102,7 +102,7 @@ class _listBodyState extends State<listBody>
                             width: 50,
                             height: 50,
                             icon: Icon(
-                              Icons.history,
+                              Icons.history_edu,
                               color: Colors.white,
                             ),
                             onClick: () {
