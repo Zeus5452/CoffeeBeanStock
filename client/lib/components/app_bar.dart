@@ -1,6 +1,4 @@
-import 'package:client/screens/body/coffee_list.dart';
 import 'package:flutter/material.dart';
-//import 'package:flutter_svg/flutter_svg.dart';
 import 'package:client/constants.dart';
 
 AppBar homeAppBar(BuildContext context) {
@@ -9,9 +7,7 @@ AppBar homeAppBar(BuildContext context) {
     elevation: 0,
     leading: IconButton(
       icon: Icon(Icons.menu),
-      onPressed: () {
-   
-      },
+      onPressed: () {},
     ),
     title: RichText(
       text: TextSpan(

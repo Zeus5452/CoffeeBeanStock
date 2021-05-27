@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:client/components/image_banner.dart';
-//import 'package:food_app/components/search_box.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -9,12 +8,14 @@ class Body extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [ImageBanner("assets/images/home-coffee.jpg"), Text("dfg")],
+        children: [
+          ImageBanner("assets/images/home-coffee.jpg"),
+          Text("dfg"),
+          Container(
+            child: Text("kjsudgfkusdkugh"),
+          )
+        ],
       ),
-      floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: Text('...'),
-          backgroundColor: Colors.orange[600]),
     );
   }
 }

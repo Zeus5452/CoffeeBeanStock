@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:client/components/bottom_nav_bar.dart';
-import 'components/app_bar.dart';
-import 'components/body.dart';
+import '../../components/app_bar.dart';
+import '../body/body.dart';
 
 class HomeScreen extends StatelessWidget {
   @override

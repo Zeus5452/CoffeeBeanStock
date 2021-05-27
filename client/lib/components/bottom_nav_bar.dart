@@ -1,9 +1,9 @@
-import 'package:client/screens/body/add_coffee.dart';
-import 'package:client/screens/body/add_group.dart';
-import 'package:client/screens/body/view_groups.dart';
+import 'package:client/screens/home/components/add_coffee.dart';
+import 'package:client/screens/home/components/add_group.dart';
+import 'package:client/screens/home/components/view_groups.dart';
 import 'package:client/screens/home/home-screen.dart';
 import 'package:flutter/material.dart';
-import 'package:client/screens/body/coffee_list.dart';
+import 'package:client/screens/home/components/coffee_list.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
