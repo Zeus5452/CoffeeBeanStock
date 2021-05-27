@@ -98,11 +98,11 @@ class _listBodyState extends State<listBody>
                             ..scale(degOneTranslationAnimation.value),
                           alignment: Alignment.center,
                           child: CircularButton(
-                            color: Colors.blue,
+                            color: Colors.blue[900],
                             width: 50,
                             height: 50,
                             icon: Icon(
-                              Icons.history_edu,
+                              Icons.history,
                               color: Colors.white,
                             ),
                             onClick: () {
@@ -120,7 +120,7 @@ class _listBodyState extends State<listBody>
                             ..scale(degTwoTranslationAnimation.value),
                           alignment: Alignment.center,
                           child: CircularButton(
-                            color: Colors.green,
+                            color: Colors.red[900],
                             width: 50,
                             height: 50,
                             icon: Icon(
@@ -142,7 +142,7 @@ class _listBodyState extends State<listBody>
                             ..scale(degThreeTranslationAnimation.value),
                           alignment: Alignment.center,
                           child: CircularButton(
-                            color: Colors.blueAccent,
+                            color: Colors.lightGreen[800],
                             width: 50,
                             height: 50,
                             icon: Icon(
