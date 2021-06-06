@@ -1,5 +1,3 @@
-import 'package:client/screens/home/components/add_coffee.dart';
-import 'package:client/screens/home/components/add_group.dart';
 import 'package:client/screens/home/components/view_groups.dart';
 import 'package:client/screens/home/home-screen.dart';
 import 'package:flutter/material.dart';
@@ -39,26 +37,15 @@ class BottomNavBar extends StatelessWidget {
                 Navigator.push(context, coffeeList());
               }),
           IconButton(
-              icon: Icon(Icons.group),
-              onPressed: () {
-                Navigator.push(context, groupList());
-              }),
-          IconButton(
               icon: Icon(Icons.home),
               onPressed: () {
                 Navigator.push(context, HomeScreenb());
               }),
           IconButton(
-              icon: Icon(Icons.addchart_rounded),
+              icon: Icon(Icons.group),
               onPressed: () {
-                Navigator.push(context, add_coffeeList());
+                Navigator.push(context, groupList());
               }),
-          IconButton(
-            icon: Icon(Icons.group_add_sharp),
-            onPressed: () {
-              Navigator.push(context, add_groupList());
-            },
-          ),
         ],
       ),
     );
